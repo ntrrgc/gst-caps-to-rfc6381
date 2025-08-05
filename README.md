@@ -36,6 +36,6 @@ Requirements:
 Usage:
 
 ```
-$ ./gst-caps-to-rfc6381 "video/x-h264, stream-format=(string)avc, alignment=(string)au, level=(string)1.1, profile=(string)high, codec_data=(buffer)0164000bffe1001d6764000bace40507ec05a830082d280000030008000003003478a1489001000568ebecb22cfdf8f800, width=(int)320, height=(int)240, framerate=(fraction)5/2, pixel-aspect-ratio=(fraction)1/1, colorimetry=(string)2:4:5:4"
+$ ./gst-caps-to-rfc6381.py "video/x-h264, stream-format=(string)avc, alignment=(string)au, level=(string)1.1, profile=(string)high, codec_data=(buffer)0164000bffe1001d6764000bace40507ec05a830082d280000030008000003003478a1489001000568ebecb22cfdf8f800, width=(int)320, height=(int)240, framerate=(fraction)5/2, pixel-aspect-ratio=(fraction)1/1, colorimetry=(string)2:4:5:4"
 avc1.64000B
 ```
